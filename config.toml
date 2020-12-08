@@ -1,0 +1,65 @@
+baseURL = "https://pifzzy.github.io/"
+languageCode = "en-us"
+title = "Apif Supriadi | @pifzzy"
+theme = "hugo-PaperMod"
+
+[params.profileMode]
+enabled = true
+title = "Apif Supriadi"
+imageUrl = "https://i.ibb.co/qxxfTB7/1080x1080blank.png"
+imageTitle = "Apif Supriadi"
+imageWidth = 200
+imageHeight = 200
+
+  [[params.profileMode.buttons]]
+  name = "Blog"
+  url = "/blog"
+
+  [[params.profileMode.buttons]]
+  name = "Archive"
+  url = "/archives"
+
+  [[params.profileMode.buttons]]
+  name = "Tag"
+  url = "/tags"
+
+  [[params.profileMode.buttons]]
+  name = "Search"
+  url = "/search"
+
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://instagram.com/pifzzy"
+
+  [[params.socialIcons]]
+  name = "facebook"
+  url = "https://facebook.com/apfsprd"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/pifzzy"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/apif-supriadi-9900721bb/"
+
+   [[params.socialIcons]]
+  name = "medium"
+  url = "https://medium.com/@apfsprd"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/pifzzy"
+
+  [[params.socialIcons]]
+  name = "discord"
+  url = "https://discord.com/channels/@pifzzy"
+
+[params]
+ShowShareButtons = true
+comments = true
+env = "production"
+description = "Apif Supriadi's Personal Blog"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
